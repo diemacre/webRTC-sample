@@ -1,0 +1,21 @@
+<div id="mainDiv">
+
+	<h1>
+		Playing with video constraints</h1>
+
+	<p>Click one of the buttons to change video resolution.</p>
+
+	<div id="buttons" class="centered">
+		<button type="button" class="btn btn-secondary btn-margin" id="qvga">320x240px (qvga)</button>
+		<button type="button" class="btn btn-secondary btn-margin" id="hvga">480x360px (hvga)</button>
+		<button type="button" class="btn btn-secondary btn-margin" id="vga">640x480px (vga)</button>
+		<!--<button id="hd">1280x960px</button>-->
+	</div>
+	<p id="dimensions"></p>
+
+	<div class="centered">
+		<video autoplay></video>
+	</div>
+
+	<script src="js/getUserMedia_constraints.js"></script>
+</div>
