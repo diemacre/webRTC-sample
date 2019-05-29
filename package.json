@@ -7,7 +7,7 @@
     "start": "node $NODE_DEBUG_OPTION server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "abelrguez",
+  "authors": "diego, adrian and abel",
   "license": "ISC",
   "dependencies": {
     "hapi": "^17.3.1",
